@@ -1,0 +1,33 @@
+body {
+background-image:url('src/assets/fondo.jpg');
+margin:0;
+padding:0;
+}
+
+nav{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu li link {
+    color:blue;
+}
+
+.menu li link:hover{
+    color:#ff5733;
+}
